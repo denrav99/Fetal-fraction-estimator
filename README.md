@@ -15,8 +15,8 @@ Use get_FFY.py to extract FFY values from TIDDIT.amycne.tab files
 
 * Use merge.py to merge target och features on patient.
 
-#4. Linear regression
+#3. Linear regression
 
-Use machine_lenrning.py to perform scaling, PCA and linear regression.
+* Use machine_lenrning.py to perform scaling, PCA and linear regression.
 
 
