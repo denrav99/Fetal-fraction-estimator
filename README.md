@@ -1,22 +1,10 @@
 # Fetal-fraction-estimator
-Predicting fetal fraction from chromosome Y using insert size using Linear Regression.
+Predicting fetal fraction from chromosome Y from insert size using Linear Regression.
 
-#1. FFY extraction
+Usage:
+pull this repository and run main.py
 
-Use get_FFY.py to extract FFY values from TIDDIT.amycne.tab files
+python main.py --bam_directory <"absolute path to bamfiles"> --blacklist <"absolute path to blacklist"> --results_directory <"absolute path to output directory"> --counts_directory <"absolute path to output directory for fragment counts"> --FFY_directory <"absolute path to tiddit.AMYCNE.tab files">
 
-#2. Features extraction
-
-* Use get_fragments.py to extract fragments inside given length interval excluding fragments from blacklisted regions.
-
-* Use get.counts.py to extract all fragment lengths and their counts
-
-* Use input_data_sheet.py to get features table
-
-* Use merge.py to merge target och features on patient.
-
-#3. Linear regression
-
-* Use machine_lenrning.py to perform scaling, PCA and linear regression.
 
 
