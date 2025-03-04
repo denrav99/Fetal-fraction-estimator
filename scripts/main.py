@@ -1,9 +1,7 @@
 import pandas as pd
-import os
 import glob
 import argparse
 import matplotlib.pyplot as plt
-import numpy as np
 import os
 import argparse
 import csv
